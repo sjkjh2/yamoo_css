@@ -1,0 +1,83 @@
+/*
+  ------------------------------------------------
+  CSS 타이포그래피 (Typography)
+  ------------------------------------------------
+
+  폰트(Fonts) 스타일 속성
+    - 폰트에 영향을 주는 속성으로
+      적용되는 모양, 크기, 굵기, 기울임 등.
+
+      font-family
+      font-size
+      font-weight
+      font-style
+      font-variant
+
+      ※ 글자 색상은 color 속성으로 설정.
+        color keywords: red, gree, blue, pink, black
+        hex color code: #RRGGBB / 0 ~ 9, a ~ f 예) #1868a7
+        rgb, rgba: RED, GREEN, BLUE, ALPHA 예) rgba(127,255,0,0.3)
+        hsl, hsla: HUE, SATURATION, LIGHTNESS, ALPHA 예) hsla(360,60%,70%,1)
+      ※ 웹브라우저는 운영체제가 지원하는 기본 폰트(웹 안전 폰트)만
+        화면에 렌더링 한다. (참고: cssfontstack.com)
+        즉, 사용된 폰트가 사용자 컴퓨터에 없으면 렌더링 X.
+
+        웹 안전 폰트
+        Arial            [sans-serif]  고딕체
+        Verdana          [sans-serif]  고딕체
+        Courier New      [monospace]   코드체(공간이 동일)
+        Georgia          [serif]       명조체
+        Times New Roman  [serif]       명조체
+        Trebuchet MS     [serif]       명조체
+
+        하지만 웹 안전 폰트만으로 디자인 하는 디자이너는 없다!
+        Helvetica는 디자이너가 애용하는 폰트이지만...
+        Windows는 기본 지원하지 않는다. (Mac OSX는 지원)
+
+      ※ 비주얼 디자인 과정에서 적용 가능한 웹폰트를 사용해야 한다.
+        폰트 저작권에 주의! (참고: hyundaicard.com)
+
+      ※ 저작권 걱정 없는 폰트
+        fonts.google.com
+        google.co.kr/search?q=무료+웹폰트
+
+  --------------------------------------------------
+
+  텍스트(Text) 레이아웃 속성
+    - 텍스트 간격 및 레이아웃 기능에 영향을 주는 속성으로
+      행간, 자간, 어간, 정렬, 변형, 꾸밈, 그림자
+
+      line-height
+
+      letter-spacing
+      word-spacing
+
+      text-align
+      text-indent
+      text-transform
+      text-decoration
+      text-shadow
+
+      white-space
+      word-break
+      word-wrap
+
+*/
+ body {
+   font-family: IropkeBatangM;
+   font-size: 16px;
+   line-height: 1.25;
+   color: #483372;
+ }
+ 
+ h1 {
+   font-size: 32px;
+   font-weight: normal;
+   text-align: left;
+   font-weight:normal;
+ }
+
+ p {
+   letter-spacing: -0.024em;
+   word-spacing: 0.02em;
+ }

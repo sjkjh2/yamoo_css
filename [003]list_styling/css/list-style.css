@@ -1,0 +1,9 @@
+/*
+  ------------------------------------------------
+  CSS 리스트(Lists) 스타일링
+  ------------------------------------------------
+*/
+
+html { font-size:10px; }
+body { /* font-size:16px; */ font-size:1.6rem; /* rem = root em */  }
+ul { margin:0; list-style-type:square; list-style-position:inside; display:block; list-style-image:url("../images/start.svg"); }
