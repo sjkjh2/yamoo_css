@@ -1,0 +1,42 @@
+/*
+  ------------------------------------------------
+  CSS 플로팅 레이아웃(Layout)
+  ------------------------------------------------
+*/
+
+.box-group {
+  margin-top: 20px;
+  border: 10px solid #e9e9e9;
+}
+
+.box {
+  width: 140px;
+  height: 140px;
+}
+
+.box.is-blue   { background: #3b4055; }
+.box.is-yellow { background: #fff06b; }
+.box.is-green  { background: #69ccb5; }
+
+.is-blue {
+  float:left;
+  width:200px;
+}
+
+.is-yellow { 
+  float:left;
+}
+
+.is-green {
+  float:left;
+}
+
+.clear {
+  clear:both;
+}
+
+.clearfix::after {
+  content:"";
+  display:block;
+  clear:both;
+}

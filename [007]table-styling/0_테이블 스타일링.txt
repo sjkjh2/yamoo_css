@@ -1,0 +1,17 @@
+테이블 스타일링
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Styling_tables
+
+border-collapse
+https://developer.mozilla.org/ko/docs/Web/CSS/border-collapse
+
+border-spacing
+https://developer.mozilla.org/ko/docs/Web/CSS/border-spacing
+
+caption-side
+https://developer.mozilla.org/ko/docs/Web/CSS/caption-side
+
+empty-cells
+https://developer.mozilla.org/ko/docs/Web/CSS/empty-cells
+
+table-layout
+https://developer.mozilla.org/ko/docs/Web/CSS/table-layout
